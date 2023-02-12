@@ -10,16 +10,10 @@
             opacity: 0;
         }
     </style>
-    <title>
-        放烟花
-    </title>
     <link href="modal.css" rel="stylesheet"/>
 </head>
 <body onselectstart="return false">
-<!--音乐部分-->
-<audio autoplay loop id="music" controls="controls" autoplay="autoplay">
-    <source src="music.mp3" />
-</audio>
+
 
 <!--对话部分-->
 
@@ -58,7 +52,10 @@
 	</div>	
 </div>
 
-<iframe  id="iframMusic" allow="autoplay" style="display:none" src="blank.mp3"></iframe>
+<!--音乐部分-->
+<audio autoplay loop id="music" controls="controls" autoplay="autoplay">
+    <source src="music.mp3" />
+</audio>
 <script src="jquery.min.js"></script>
 <script src="fire.js"></script>
 <script src="talk.js"></script>
